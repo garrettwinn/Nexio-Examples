@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch from 'node-fetch';
 
 fetch('https://api.nexiopaysandbox.com/pay/v3/process', {
 	method: 'post',

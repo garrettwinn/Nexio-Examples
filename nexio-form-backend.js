@@ -1,8 +1,8 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 const port = 3000;
-const cors = require('cors');
-const fetch = require('node-fetch');
+import cors from 'cors';
+import fetch from 'node-fetch';
 console.log('------->loading' );
 app.use(cors());
 app.get('/', (req, res) => {
